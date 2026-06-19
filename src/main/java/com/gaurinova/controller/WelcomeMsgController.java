@@ -11,7 +11,7 @@ public class WelcomeMsgController
 	   @GetMapping("/")
 	    public ResponseEntity<String> getGreetMsg()
 	    {
-	        String msg = "Hi Gauri , Welcome in Jenkins World !!!";
+	        String msg = " Welcome in Jenkins World !!!";
 	        return new ResponseEntity<>(msg, HttpStatus.OK);
 	    }
 }
